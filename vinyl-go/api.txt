@@ -1,0 +1,18 @@
+API DESIGN
+----------
+
+1. /albums GET - get all albums as JSON
+        POST - post an album as JSON
+
+2. /albums/:id GET - get an album by ID as JSON
+
+
+DATA MODELS
+------------
+
+1. album {
+        id
+        title
+        artist
+        price
+}
